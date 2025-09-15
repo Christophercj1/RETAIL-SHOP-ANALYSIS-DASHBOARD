@@ -1,6 +1,8 @@
 ### **Power BI report for Retail Sales Analysis**
 <img width="886" height="499" alt="Screenshot 2025-09-13 215913" src="https://github.com/user-attachments/assets/174cbd38-eb50-4a31-8665-f43acc0aaffb" />
+
 I have utilized the **Retail Sales dataset** to develop a comprehensive **Power BI report**, designed to provide actionable insights into sales performance, customer demographics, and product category trends. This report consists of four distinct pages: Overview, Customer Segment, Region (optional if location data available), and Product. Each page is structured with different visualizations and analytical components to effectively interpret and present key aspects of the dataset.
+
 ### **Key Performance Indicators (KPIs)**
 The report highlights crucial KPIs, including:
 -	**Total Sales** – The overall revenue generated from transactions.
@@ -8,6 +10,7 @@ The report highlights crucial KPIs, including:
 -	**Profit per Transaction** – The average profitability per transaction.
 -	**Sum of Price per Unit** – Total of all product unit prices sold.
 -	**Total Transactions** – The count of completed sales transactions.
+  
 ### **DAX Functions Used for KPIs**
 1.**Total Sales** = SUM('retail_sales_dataset'[Total Amount])
 2.**Avg Sales** = AVERAGE('retail_sales_dataset'[Total Amount])
